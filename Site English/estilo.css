@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url(diamond_upholstery.png);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+a.classe2:link {
+	color: #008282;
+	text-decoration: none;
+}
+a.classe2:visited {
+	text-decoration: none;
+	color: #008282;
+}
+a.classe2:hover {
+	text-decoration: underline;
+	color: #00ffff;
+}
+a.classe2:active {
+	text-decoration: none;
+	color: #008282;
+}
+#topo {
+	background:#FFFF;
+	height:165px;
+	
+	box-shadow: 0px 5px 20px #bebebe;
+   -webkit-box-shadow: 0px 5px 20px #bebebe;
+   -moz-box-shadow: 0px 5px 20px #bebebe;
+}
+#conteudo {
+z-index:2;
+}
+#texto {
+	margin-top:30px;
+	background:#ffff;
+	box-shadow: 0px 5px 20px #bebebe;
+   -webkit-box-shadow: 0px 5px 20px #bebebe;
+   -moz-box-shadow: 0px 5px 20px #bebebe;
+}
+#rodape {
+	height:50px;
+	background: #008282;
+	color:#ffff;
+	font-size:13px;
+	padding-top:10px;
+}
+#end {
+	width: 800px;
+	float:left;
+	margin-top:15px;
+	margin-left:40px;
+}
+#cred {
+	width:150px;
+	float:right;
+	font-size:10px;
+	margin-top:20px;
+}
